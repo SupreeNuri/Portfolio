@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import '../../styles/main.scss'
 
 class Header extends React.Component {
     render() {
@@ -7,8 +8,14 @@ class Header extends React.Component {
             <React.Fragment>
                 <p className='testClass'> WWWWWWWWWWWWWW </p>
 
-                <Link href="/portfolio">
-                    <a>Portfolio</a>
+                <p className='testClassFromFile'> FILE FILE FILE </p>
+
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+
+                <Link href="/portfolios">
+                    <a>Portfolios</a>
                 </Link>
 
                 <Link href="/about">
